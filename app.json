@@ -1,5 +1,5 @@
 {
-  "name":"𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V5.0.0",
+  "name":"rokid 4",
   "description":"Deploy now your 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 bot, BELTAH-MD was developed by Beltah.Make sure you fill all valuables accordingly. ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
@@ -10,7 +10,7 @@
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":",",
       "required":true
     },
     "AUTO_READ_STATUS":
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗",
+      "value":"ROKID",
       "required":false
 
     } ,
@@ -49,7 +49,7 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
@@ -60,14 +60,14 @@
     },
   "HEROKU_APP_NAME": {
     "description": "insert your heroku APP NAME (the name you wrote at the beginning)",
-     "value":"",
+     "value":"rokid 4",
 	"required" :true
     }  
 	  ,
     "SESSION_ID":
     {
       "description":"put your session ID, the code you received after pairing code",   
-      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMExQNG80MmlNeWpEbDEvWjhSRmpadDNHUDJrNGFleDZqb0k5ejkwV3pHRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiN29ZQU9iY2R3Sk0wNk9WVGdIekZ0ekorQVFEU01kclNVdWJuR2t6NTdoND0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI4STRPSVU2N2ltK1JOMW1vaEZLLzVZbE1zWHBXT2s0SFQwOFFka1ZiZFVBPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJqWjUvaXRHRnYxU3ZhQ2czZXE0UEFXTFlxL0ZIYnhZZkMweHRnbUVWRVdvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjJCSFhINXZrSTBsZDdrUDFvenFJSVR0S0FaS1F5ZGxrMFNXTzA1R1d1Mkk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkpkOXZwc21La2ptSFpob3FtSTJ5OTd3YkpFN0F5UFVJVXpwbzNlbnFnQ009In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQUxnakg0YjV5T3ZqNjc4TWJuTW1ZczF0OGxMRzhtQ3VrR0tXOVd2VjNHYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRDhudk5wbm14Q2JZRzFkRDJ0cUlzcDhkSWk3MjRxVmQrYlUwYXB5WDExOD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlhtWnZHYmV6ZVo2OFBpY2tjRitDVWNIMktWZ0VHaE5mSVpvR3hhMTRKeUVFYk51YmZPVXk4MXpPQVlnZzU3cnBvLzBKVnp1bUFvRzllcUlZZTVOS0RRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTg3LCJhZHZTZWNyZXRLZXkiOiJZTWJSYWhZK1FCaUZWSnIzTnRUM1BSZjhONFh0K24vQkgyNnpHWThhUk80PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjI1NDc3NDY1Nzc0MkBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJGN0M2NEJCOEFCMkY1OTczQ0E0OUE2QTdBNUVBOThFRiJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzIwNjIxMDg4fSx7ImtleSI6eyJyZW1vdGVKaWQiOiIyNTQ3NzQ2NTc3NDJAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiRTE0OTA2OTJDOUEyNDQ3RTU2NjAwREE2QUQ4MEU2QzMifSwibWVzc2FnZVRpbWVzdGFtcCI6MTcyMDYyMTA4OX1dLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiQnFCYUVBMlVSMEc4UUZld3hmSmhRZyIsInBob25lSWQiOiIzZjE5MDZhYS00MzhhLTRlODgtYWI3ZC05ZDJkNjBjY2IzZWQiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR1FWMjB0Nk9kandUeE5OcjlkcDZNUjBLdXg4PSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik5aQ1FHU0gzVzd4dmRiL3M4MzkvS0xNU0xJOD0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJRNlZNQ0wyUCIsIm1lIjp7ImlkIjoiMjU0Nzc0NjU3NzQyOjEwQHMud2hhdHNhcHAubmV0IiwibmFtZSI6IuaIkeW+iOmrmOWFtOS9oOWlvSJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTGVVZ2F3R0VKQ3d1clFHR0FJZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoieGFTSjg2WU4wQTB3czYzL3pXNnN4NUIyaVJrUU8xVFZMSWM2MzhTVDZscz0iLCJhY2NvdW50U2lnbmF0dXJlIjoiMWxRb2w1aWovU3ZKbkJiZkc0UXZCSDhhcW1ETWt5RzVnUllURGpxZTFPR2QxVm1zaEZlSSsvb01kalIyaEYzQlpBRitzRURncHFmRHYyQWVmdVJqQ3c9PSIsImRldmljZVNpZ25hdHVyZSI6Iks3NytycG85OFI3czFnOGIxMVZzZWRod1MzV29vYUEzK1FEOGFXZnVwRWFWTWR6K1lFTWRya2JLOE5aOW1IR1BuNzJkeElYcVFqZiswV3V6UUVidEJ3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU0Nzc0NjU3NzQyOjEwQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmNXa2lmT21EZEFOTUxPdC84MXVyTWVRZG9rWkVEdFUxU3lIT3QvRWsrcGIifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjA2MjEwODUsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSEJZIn0=",
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ0VXbE9ZTW54dU5CTE9xYmxOTWFFbnVON0NRL0R3ZU9tcnhKRC93TStuTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNm5FSzI3WE5manpHOERnQ3Voa1QyYm9YK05xY2xLNkJpQ2d5TzcxenlIZz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJTSWlZeW9qQkJPY0doYlk1Z3c0NXhyZkQ4TTlIc2w5UVY2UmpOeWF6TEd3PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJMLzVtWE5ucE9GMnI2ZThyZVpncnpNOHU0TDJtUXRJRkp1Yi9qeHN0TVFJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InFJSXErSXFEVXBNRGtUM3FZdklYSk5pU0NwR01Ic3pUY0ZhMjRoWVJ4Rnc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkM1cXE5NjVNQUt1QkRuSmNSdE9PU3JVWWh3SmVTRTF1ZzZFTzN0aUFEaDA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia0ovT014THc1ZFFaNVMzV3RuSGxMcXEyMnUzYWhlcW5HNFRReTQ3TklsVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRFJGSmdFT3Z0cDF2VDd5YS82WVIwOUd4RWNnR2dGOVVvekFwenZJYXZ5Yz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Imc4VTcxS0NjWHFDUXdGajhNU09Va2k5bXRabkhwcFRPR1cySXNvY3pEcW95RmVHRndjUm83WEtjdlk2M3pjZGQ0SkY2djlWaXVrM3RuOGhlUkdWNEFRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjQ0LCJhZHZTZWNyZXRLZXkiOiIwVTUrM2cyQTZrcm8zUVVTWWxDSDNqSDREQWVlZUc1UVFEL3pJeWQ0Y244PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjI1NDc3NDY1Nzc0MkBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiI1QTdDQjA2MEFCOEEwQTNCREI1MDlDNkIxN0M5NTQwMCJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzIwNzk1NTU1fV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJ6OVFMTU40elRQaVltMHBVa1ZYeVhRIiwicGhvbmVJZCI6IjBjZjljNDFlLWI4YzQtNDcxNC04YWUwLWYxZmRiM2M2NmRkOCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ2Tkg3eWdQVnRZWVpNSVU5VmNqRFArQUdQREk9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWGd0Z3Zhb1kwYVpZVEczZXpBL3JZWUozMnZZPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlQ5NzVERUYxIiwibWUiOnsiaWQiOiIyNTQ3NzQ2NTc3NDI6MTJAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoi5oiR5b6I6auY5YW05L2g5aW9In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNMZVVnYXdHRUpHRHhiUUdHQVFnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJ4YVNKODZZTjBBMHdzNjMvelc2c3g1QjJpUmtRTzFUVkxJYzYzOFNUNmxzPSIsImFjY291bnRTaWduYXR1cmUiOiJaczYyaVh0enlYS3J2TUhieVJvTHdVYXpEZHVQdTF6SXlSd050NUQyT3dKcWJXa25ueUtmcHpyUUdBamI4M2FoNndHZkhUZ0x4K2YxY3dpTE42aTFCdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoieDN3Syt3TXJZV3B2VVFnUTJtKzhEekVyYXBtRGdmVmlBcEZYb1BFQjRxLzJiVUFaVXZIZEQ2YnozUDRSOUFEeG1GTGxJKy9jR0Z4eDJ4VDZweDh3QVE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNTQ3NzQ2NTc3NDI6MTJAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCY1draWZPbURkQU5NTE90LzgxdXJNZVFkb2taRUR0VTFTeUhPdC9FaytwYiJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMDc5NTU1MSwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFIQmcifQ==",
       "required":true
       
     },
@@ -76,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Beltah Tech 254🇰🇪"
+    "value": "ROKID"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254114141192"
+    "value": "254774657742"
   },
     "WARN_COUNT":
   {
@@ -99,7 +99,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 for always online.2 to indicate that you are currently typing a message.3 to indicate that you are currently recording an audio.leave the field blank to indicate your real state.",
-    "value":"",  
+    "value":"1",  
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
